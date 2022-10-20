@@ -28,7 +28,7 @@ const PokedexById = () => {
 
     return (
     <>  <aside className='poke-id__aside'>
-            <img src="../public/home/pokLogo.png" alt="" className='pokedex__logo' /> 
+            <img src="/home/pokLogo.png" alt="" className='pokedex__logo' /> 
             <Link to='/pokedex' className='poke-id__back'>Return to Pokedex»</Link>
         </aside>
     {    
