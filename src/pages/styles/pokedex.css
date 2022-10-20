@@ -1,0 +1,87 @@
+.pokedex__container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.pokedex__aside {
+    margin: 0 auto;
+}
+
+.pokedex__text {
+    font-size: 24px;
+    margin: 40px 50px;
+}
+
+.pokedex__span {
+    color: var(--color-red);
+    font-weight: 700;
+}
+
+.pokedex__aside-b1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* input */
+.input__form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.input__input {
+    font-size: 20px;
+    box-shadow: 0 3px 6px #00000015;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.input__button {
+    width: 100%;
+    max-width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: var(--color-red);
+    color: white;
+    box-shadow: 0 3px 6px #00000015;
+    cursor: pointer;
+}
+
+.input__button:hover {
+    filter: brightness(1.2);
+    transition: filter ease 0.2s;
+}
+
+/* select by type */
+.select__container select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0;
+    border: 0;
+    background: var(--color-red);
+    font-size: 1.2em;
+    color: white;
+    border: 2px solid var(--color-red);
+    position: relative;
+    transition: transform ease 0.1s, filter ease 0.1s;
+}
+
+.select__option {
+    background-color: white;
+    color: black;
+}
+.select__container select:hover {
+    filter: brightness(1.1);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+    transition: transform ease 0.2s, filter ease 0.1s;
+}
